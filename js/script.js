@@ -1,6 +1,7 @@
 /*  Dynamic Navbar
     Grabs navbar.html and drops into #navbar
 */
+/*
 document.addEventListener("DOMContentLoaded", function(){
     // Detect if we're on GitHub Pages or local
     const isGitHubPages = window.location.hostname.includes('github.io');
@@ -20,4 +21,4 @@ document.addEventListener("DOMContentLoaded", function(){
         });
     }) 
     .catch(error => console.error("Error loading navbar:", error));
-});
+}); */
