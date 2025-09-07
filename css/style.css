@@ -1,0 +1,150 @@
+/*
+Color palettes
+#2C2C34 #494850 #978897 #B18FCF #D8D8F6
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #2C2C34;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 60px; /* Add padding to the top of the body to account for the fixed navigation bar */
+}
+
+section {
+    padding-bottom: 50px;
+    text-align: center;
+    color: #D8D8F6;
+}
+
+nav {
+    background-color: #494850;
+    padding: 15px;
+    position: fixed;
+    top: 0;                                 /* Position the navigation bar at the top of the page */
+    left: 0;                                /* Position the navigation bar at the left of the page */
+    width: 100%;                            /* Make the navigation bar take the full width of the page */
+    z-index: 1000;                          /* Ensure the navigation bar appears above other content */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+nav a.active {
+    font-weight: bold;
+    color: #B18FCF;
+}
+
+.navlogo {
+    font-size:larger;
+    font-weight: bold;
+    text-align: justify;
+    color: #D8D8F6;
+    cursor: pointer;
+    transition:none;
+    text-decoration: none;
+    margin-right: 800px;
+}
+
+.navlogo:hover {
+    opacity: 0.8;
+}
+
+.navbutton {
+    color: #D8D8F6;
+    font-weight:600;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 12px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+    font-family: Arial;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navbutton:hover {
+    opacity:0.8;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav li:active{
+    color: #333;
+}
+
+.contact ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.contact li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.reflection {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+    text-indent: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.project-card {
+    color: #B18FCF;
+    border: 1px double;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+    width: 200px;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-link {
+    text-decoration: none;
+    color: #978897;
+}
+
+.blog-card {
+    text-decoration: none;
+    color: #B18FCF;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+    width: 200px;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card:hover {
+    opacity: 0.8;
+}
+
+.icon {
+    align-content:center;
+    width: 50px;
+}
+
+.icon:hover {
+    opacity: 0.8;
+}
